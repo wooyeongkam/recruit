@@ -1,7 +1,13 @@
-import { HomePage } from "./pages/home";
+import '@/styles/globals.css';
+import { HomePage } from './pages/home';
+import { Layout } from './components/layout';
 
 function App() {
-  return <HomePage />;
+  return (
+    <Layout>
+      <HomePage />
+    </Layout>
+  );
 }
 
 export default App;
